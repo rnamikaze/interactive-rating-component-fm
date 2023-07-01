@@ -22,8 +22,18 @@ function showResult() {
     } else {
       rattingDisplay.innerText = selectedValue;
       thankYou.classList.add("is-active");
+
+      resetRattingInput();
     }
   };
+}
+
+function resetRattingInput() {
+  setTimeout(function() {
+    rattingInput[selectedValue-1].checked = false;
+    selectedValue = 0;
+    thankYou.classList.remove("is-active");
+  }, 5000);
 }
 
 rattingDisplay.innerText = selectedValue;
