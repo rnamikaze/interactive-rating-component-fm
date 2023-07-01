@@ -236,8 +236,45 @@ main {
 
   font-size: 11px;
   text-align: center;
+  color: $White;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: $Orange;
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 90%;
+  }
+  main {
+    height: 370px;
+    max-width: 90vw;
+    box-sizing: border-box;
+
+    .main-top {
+      max-height: none;
+      h1 {
+        font-size: 1.7em;
+      }
+      p {
+        line-height: 1.3em;
+      }
+    }
+
+    .main-bottom {
+      max-height: 100px;
+      .rattings-button {
+        label {
+          width: 40px;
+          height: 40px;
+        }
+      }
+      .submit-button {
+        .submit {
+          height: 40px;
+        }
+      }
+    }
+  }
 }

@@ -183,10 +183,41 @@ main .thank-you.is-active {
   width: 100%;
   font-size: 11px;
   text-align: center;
+  color: hsl(0, 0%, 100%);
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(25, 97%, 53%);
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 90%;
+  }
+  main {
+    height: 370px;
+    max-width: 90vw;
+    box-sizing: border-box;
+  }
+  main .main-top {
+    max-height: none;
+  }
+  main .main-top h1 {
+    font-size: 1.7em;
+  }
+  main .main-top p {
+    line-height: 1.3em;
+  }
+  main .main-bottom {
+    max-height: 100px;
+  }
+  main .main-bottom .rattings-button label {
+    width: 40px;
+    height: 40px;
+  }
+  main .main-bottom .submit-button .submit {
+    height: 40px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
