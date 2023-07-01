@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://rnamikaze.github.io/interactive-rating-component-fm)
+- Live Site URL: [GitHub Pages](https://rnamikaze.github.io/interactive-rating-component-fm)
 
 ## My process
 
